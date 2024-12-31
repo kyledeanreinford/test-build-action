@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: hello world action step
         id: hello
-        uses: kyledeanreinford/test-build-action@v2
+        uses: kyledeanreinford/test-build-action@v4
         with:
           who-to-greet: 'Kyle Reinford'
       - name: Get the output time
